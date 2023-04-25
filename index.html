@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"type="text/css" href="./css/style.css">
+	<style type="text/css">
+		
+	
+	
+  html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+html{background: black;}
+header{color: white;height: 650px;background:black ;margin:auto;padding-top: 50px;padding-bottom: px;}
+nav{width: 900px; margin:auto;background: ;padding: 0px;}
+li{list-style-type: none;margin: auto;}
+ul{padding: 0px;margin: 0px;}
+a{ width: 125px;
+ display: block;
+ margin: 0;
+ background:;
+ text-decoration: none;
+ color: white;
+ border-radius: 5px;
+ text-align: center;
+ font-size: 19px;
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: 600;}
+h1{width: 700px;margin:0;font-size:89px;background:;text-align: center;
+ position: absolute;top: 116px;left: 50%;transform: translate(-50%,0%);
+ font-family: 'IBM Plex Sans KR', sans-serif;font-weight: 300;}
+h2{width:1300px;margin: 0;font-size: 89px;text-align: center;
+ position: absolute;top: 600px;left: 50%;transform: translate(-50%,0%);
+ font-family: 'Source Code Pro', monospace;font-weight: 300;font-stretch: condensed;letter-spacing:-4px; }
+h3{font-family: 'IBM Plex Sans KR', sans-serif;font-weight: 600;
+ font-size: 2.5em;text-align: right;background: ;color: white;}
+h4{font-size: 19px;
+ font-family: 'Barlow Condensed', sans-serif;font-weight: 600;color: white;}
+h5{font-size: 40px; font-family: 'IBM Plex Sans KR', sans-serif;font-weight: 500;text-align: center;margin-top: 97px;}
+h6{font-size: 60px; font-family: 'IBM Plex Sans KR', sans-serif;font-weight: 500;text-align: center;line-height:80px;margin-bottom:189px;}
+p{font-family: 'Noto Sans KR', sans-serif;text-align: right;line-height: 28px;word-break: keep-all;font-weight: 400;}
+section p{margin-bottom: 20px;color: white;}
+section{width: 1100px;margin:auto;background: ;}
+
+.black{color: black;}
+.aa{padding-top: 201px;}
+.second{background: white;padding-top: 114px;}
+.white{background: white;width: 1530px;}
+.flex{display: flex;align-content: space-between;}
+.wrap{display: flex;justify-content: space-between;}
+.pic{width: 650px;height: 650px;background: yellow;position: absolute;
+ top: 110px;left: 50%;transform: translate(-50%,0%);}
+.bg-blackhole{background:url(asset.png)no-repeat;background-size:100%;
+ background-position-x: center;background-position-y: center;}
+.intro{background: ;float:right;width:500px;margin-top: 45px;}
+.up{background: ;}
+.down{background: ;margin-top: 38px;}
+.void{width:500px;height: 88px;background: blue;margin-top:80px;}
+.textleft{text-align: left;}
+.textcenter{text-align: center;}
+.bg-hole{background:url(smallhole.png)no-repeat;background-size: 100%;
+ background-position-x: center;background-position-y: center;}
+.ss{clear:both;}
+.bg-mess{margin-top: 70px;margin-bottom: 70px;height: 552px;background:;position:relative; }
+.back{width: 736px;height: 254px;
+background: yellow;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.bg-balloon{background: url(balloon.png)no-repeat;background-size:100%;
+ background-position-x: center;background-position-y: center;}
+ .box{width: 891px;background: ;margin: auto;margin-top: 263px;}
+ .left{background: ;width: 38%}
+ .right{background: ;width: 38%}
+ .icon{width:295px;height:295px;background:white;margin: auto;outline: solid 2px black;}
+ .mediumhole{margin: auto;width: 840px;height: 118px;background: url(mediumhole.png) no-repeat;background-size:100%;
+    background-position-x: center;background-position-y: center;margin-top:114px;}
+.brand{margin-top: 187px;margin-bottom: 180px;}
+.bg-mainmotion{height: 1190px;margin: auto;background: grey;}
+.blank{height: 274px;}
+.bg-trash{background: url(trash.png) no-repeat;background-size:100%;
+    background-position-x: center;background-position-y: center;}
+.bg-head{background: url(head.png) no-repeat;background-size:100%;
+    background-position-x: center;background-position-y: center;}
+
+	.bg-blackhole{background:url(asset.png)no-repeat;background-size:100%;background-position-x: center;background-position-y: center;}
+	.bg-hole{background:url(smallhole.png)no-repeat;background-size: 100%;background-position-x: center;background-position-y: center;}
+	.bg-balloon{background: url(balloon.png)no-repeat;background-size:100%;
+ background-position-x: center;background-position-y: center;}
+ 	.mediumhole{margin: auto;width: 840px;height: 118px;background: url(mediumhole.png) no-repeat;background-size:100%;
+    background-position-x: center;background-position-y: center;margin-top:114px;}
+    .bg-trash{width:295px;height:295px;background: url(trash.png) no-repeat;background-size:70%;
+    background-position-x: center;background-position-y: center;border: 4px black;}
+	.bg-head{width:295px;height:295px;background: url(head.png) no-repeat;background-size:70%;
+    background-position-x: center;background-position-y: center;}
+.first{background:url(background1.png)no-repeat;background-size: 1926px 100%;
+ background-position-x: center;background-position-y: center;margin: 0px;}
+
+	
+
+	</style>
+
+</head>
+<body>
+<header>
+	<nav>
+		<ul class="flex">
+			<li>
+				<a href="index.html"> intro </a>
+			</li>
+			<li>
+				<a href="index.html"> brand story </a>
+			</li>
+			<li>
+				<a href="index.html"> how to </a>
+			</li>
+			<li>
+				<a href="index.html"> use </a>
+			</li>
+			<li>
+				<a href="index.html"> warning </a>
+			</li>
+		</ul>
+	</nav>
+	 <div class="pic bg-blackhole"></div>
+	<h1>휴대용 블랙홀</h1>
+    <h2>Portable Blackhole</h2>
+</header>
+
+<div class="first">	
+	<section class="aa">
+		<h4>intro_</h4>
+		<div class="intro">
+			<div class="up">
+				<h3>쓰레기 처리, 많이 힘드시죠?</h3>
+				<div class="void bg-hole"></div>
+			</div>
+			<div class="down">
+				<p >음식물 쓰레기를 버리길 미루고 방치하다<br>벌레가 꼬인 적 있으신가요?</p>
+				<p >비운 지 얼마 되지도 않은 것 같은 쓰레기통이 눈 깜빡할 새<br>넘칠 만큼 가득 차 있지 않나요?</p>
+				<p >길에서 음식을 사 먹었는데 버릴 곳이 없어서 쓰레기를<br>양손에 쥐고  그대로 집으로 걸어간 적은요?</p>
+			</div>
+		</div>
+		<div class="ss"></div>
+	</section>
+
+		<div class="bg-mess">
+			<div class="back bg-balloon"></div>
+		</div>
+		
+
+	<section>
+		<div>
+		<p class="textleft">길바닥에 죄다 던져 버리고 잊어버리고 싶을 때도 있을 거예요.</p>
+		<p class="textleft">쓰레기 처리,<br>그 방법도 환경을 생각해도 참 복잡하고 힘든 문제죠.<br>그런 당신을 위해 준비했습니다.</p>
+		</div>
+	</section>
+	<section>	
+		<div class="box wrap">
+			<div class="left">
+				<div class="icon">
+				<div class="bg-trash"></div>
+				</div>
+				<h5>골치 아픈 쓰레기들</h5>
+			</div>
+			<div class="right">
+				<div class="icon">
+				<div class="bg-head"></div>
+				</div>
+				<h5>당신의 골칫덩이까지</h5>
+			</div>
+		</div>
+	</section>
+	
+	<section class="white">
+		<div class="mediumhole"></div>
+	</section>
+</div>
+
+<div class="second">
+	<section>
+		<h6>말끔히 해결해줄<br>휴대용 블랙홀을<br> 소개합니다</h6>
+	</section>
+
+	<section>
+		<h4 class="black">brand story_</h4>
+		<div class="brand">
+			<p class="textcenter black">저희 ####andco.는 인간과 지구 그 어느 쪽도 고통받지 않을,<br>세상 그 어디에도 없는 쓰레기 처리기를 만들어 내겠다는 일념으로 연구에 매진했고,<br>수년간의 우주 탐사와 실험을 거쳐 블랙홀 현상을 일으키는<br>물질을 개발, 원리를 발견했습니다.</p>
+			
+			<p class="textcenter black">그리고 마침내,</p>
+			
+			<p class="textcenter black">그 어떤 오염도 찌꺼기도 남기지 않는 역사상 가장 완벽한 쓰레기 처리기, <br>휴대용 블랙홀을 세상에 선보이게 되었습니다.
+			</p>
+		</div>
+	</section>
+
+	<div class="bg-mainmotion">
+	</div>
+
+	<section>
+		<h4 class="black">how to_</h4>
+		<p class="black">없애 버리고 싶은 것 앞, 혹은 뒤에서<br>케이스의 잠금 장치를 풀고 살짝 열어 주세요.<br>쥐도 새도 모르는 새 블랙홀에 쏙 빨려들어갈 거예요.<br>원하는 만큼 빨아들였다면 케이스를 꼭 확실하게 잠궈 주세요.</p>
+		<div class="blank"></div>
+	</section>
+</div>
+
+	<section>
+		<h4>use_</h4>
+		<div class="flex">
+			<div class="one">
+				<div class="useimage bg-one"></div>
+				<h6>쓰레기 해결</h6>
+				<h7>언제나, 어디서나<br>사용할 수 있는<br>나만의 작은 쓰레기통</h7>
+			</div>
+			
+			<div class="two">
+				<div class="useimage bg-one"></div>
+				<h6>쓰레기 해결</h6>
+				<h7>언제나, 어디서나<br>사용할 수 있는<br>나만의 작은 쓰레기통</h7>
+			</div>
+			
+			<div class="three">
+				<div class="useimage bg-one"></div>
+				<h6>쓰레기 해결</h6>
+				<h7>언제나, 어디서나<br>사용할 수 있는<br>나만의 작은 쓰레기통</h7>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div>
+			<h8>쓰레기 해결</h8>
+			<div class="void bg-hole"></div>
+		</div>
+	</section>
+
+</body>
+</html>
